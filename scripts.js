@@ -53,12 +53,12 @@
 
 // // Task 5 
 
-// let numbersArray = [12,23,43,11,9,2,121,90];
-// for(let numb of numbersArray){
-//     if(numb > 31 || numb % 2 == 0){
-//         console.log('Element is greater than provided value and is EVEN');
-//     }
-//     else if(numb < 31 || numb % 2 !=0){
-//         console.log('Element is less than provided value and is ODD');
-//     }
-// }
+let numbersArray = [12,23,43,11,9,2,121,90];
+for(let numb of numbersArray){
+    if(numb > 31 && numb % 2 == 0){
+        console.log('Element is greater than provided value and is EVEN');
+    }
+    else if(numb < 31 && numb % 2 !=0){
+        console.log('Element is less than provided value and is ODD');
+    }
+}
