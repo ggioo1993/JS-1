@@ -15,8 +15,10 @@
 
 // // Task 2 
 
-// let studentsArray = ['John','Sam','Ann','Will','Andrew','Joseph','Lorelai','Amelie','Den'];
-// console.log(studentsArray[4]);
+// let studArr = ['John','Sam','Ann','Will','Andrew','Joseph','Lorelai','Amelie','Den'];
+// let mid = studArr[(studArr.length - 1) / 2];
+// console.log(mid);
+
 
 // // Task 3
 
@@ -53,12 +55,12 @@
 
 // // Task 5 
 
-let numbersArray = [12,23,43,11,9,2,121,90];
-for(let numb of numbersArray){
-    if(numb > 31 && numb % 2 == 0){
-        console.log('Element is greater than provided value and is EVEN');
-    }
-    else if(numb < 31 && numb % 2 !=0){
-        console.log('Element is less than provided value and is ODD');
-    }
-}
+// let numbersArray = [12,23,43,11,9,2,121,90];
+// for(let numb of numbersArray){
+//     if(numb > 31 && numb % 2 == 0){
+//         console.log('Element is greater than provided value and is EVEN');
+//     }
+//     else if(numb < 31 && numb % 2 !=0){
+//         console.log('Element is less than provided value and is ODD');
+//     }
+// }
